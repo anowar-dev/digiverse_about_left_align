@@ -744,7 +744,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     line-height: 1.5rem;
     padding-bottom: 1rem;
 }
-.privacy_top .pSubTitle{
+.pSubTitle{
     font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
@@ -778,6 +778,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     line-height: 1.4rem;
     margin-bottom: 2.5rem;
     text-align: justify;
+    list-style: disc;
 }
 .privacy_top ul{
     margin-bottom: 2rem;
@@ -1395,7 +1396,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     .privacy_top .privacy_data{
         padding-left: 0 !important;
     }
-    .privacy_top .pSubTitle{
+    .pSubTitle{
         font-size: 1.3rem !important;
     }
     .privacy_top .privacy_data_color{
