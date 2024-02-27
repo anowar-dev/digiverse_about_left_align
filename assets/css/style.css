@@ -218,26 +218,28 @@ img{
     position: absolute;
     background: rgba(0, 0, 0, .6);
 }
-.container .body_main{
-    position: relative;
-}
 
 .header_logo{
     width: 12rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
-    z-index: 1;
+    margin-bottom: 3rem;
     /* box-shadow: 0 0 2px 0 rgb(1, 1, 79); */
+}
+.header_logo img{
+    position: fixed;
+    width: 12rem;
+    top: 1.5rem;
 }
 .header_logo .home_page_logo{
     height: fit-content;
-    position: relative;
+    position: sticky;
     z-index: 1;
 }
 
-.body_main .header_logo{
-    /* background: #ebf7fb; */
+
+/* .body_main .header_logo{
     width: 100%;
     position: fixed;
     top: 0;
@@ -246,7 +248,7 @@ img{
     padding: 0.3rem 0;
     background: transparent;
     height: fit-content;
-}
+} */
 .body_main .header_logo .home_page_logo img{
     max-width: 12rem;
     margin: auto;
@@ -433,13 +435,12 @@ img{
 }
 
 .header_main{
-    position: sticky;
+    position: sticky !important;
     width: 100%;
     top: 0;
     left: 0;
-    /* background: #ebf7fb; */
-    /* box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2); */
     padding: 0.3rem 0;
+    z-index: 99999999999;
 }
 .auth_banner{
     text-align: center;
@@ -963,7 +964,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     position: relative;
 }
 .about_single_div:hover .about_single_text{
-    background: #1A2D5A;
+    background: linear-gradient(to right, #284485, #243d77, #1A2D5A);
 }
 .about_single_div .about_single_img{
     width: 50%;
@@ -1037,23 +1038,22 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 .about_finished {
     margin-top: .5rem;
     text-align: left;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    padding: 0 3rem 1px 3rem;
 }
 .about_finished .finished_para{
-    font-size: .6rem;
+    font-size: 9px;
     font-weight: 500;
-    color: #ffffff;
+    color: #9fabc6;
 }
 .about_finished .finished_para a{
     text-decoration: none;
     transition: all .4s;
     color: #ffffff;
-    opacity: .5;
+    transition: .3s;
 }
 .about_finished .finished_para a:hover{
-    opacity: 1;
+    color: #9fabc6;
 }
 /*========== Start Responsive ===========*/
 /*------- max-width: 1200px  --------*/
@@ -1374,9 +1374,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     .container{
         padding: 0 1rem !important;
     }
-    .body_main .header_logo{
-        width: 13rem !important;
-    }
+    
     
     .login_main .login_inner .auth_title{
         font-size: 1.5rem !important;
