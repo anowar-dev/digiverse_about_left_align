@@ -634,7 +634,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 .footer_main .login_privacy{
     text-align: center;
     width: fit-content;
-    padding-left: 0.35rem;
+    padding-left: 0.4rem;
 }
 .footer_main .login_privacy a{
     font-size: .7rem;
