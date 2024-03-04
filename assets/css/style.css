@@ -220,17 +220,21 @@ img{
 }
 
 .header_logo{
-    width: 12rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    background: #1A2D5A;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
     /* box-shadow: 0 0 2px 0 rgb(1, 1, 79); */
 }
 .header_logo img{
-    position: fixed;
     width: 12rem;
-    top: 1.5rem;
 }
 .header_logo .home_page_logo{
     height: fit-content;
@@ -482,6 +486,9 @@ img{
     font-size: .8rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
+}
+.login_inner{
+    margin-top: 8rem;
 }
 .login_inner form .form_inner_div input{
     display: block;
@@ -924,7 +931,9 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     background: rgba(0, 0, 0, .7);
     z-index: -1;
 }
-
+.about_main{
+    margin-top: 3.8rem;
+}
 .about_main .about_inner{
     display: grid;
     grid-template-columns: auto auto;
@@ -1035,12 +1044,12 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     opacity: .6;
 }
 
-/* .about_finished {
-    margin-top: .5rem;
+.about_finished {
+    margin-top: 2rem;
     text-align: left;
     width: 100%;
-    padding: 0 3rem 1px 3rem;
-} */
+    padding: 0 3rem 0 3rem;
+}
 .about_finished .finished_para{
     font-size: 9px;
     font-weight: 500;
@@ -1122,9 +1131,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     /* PreLoder */
     .onLoad .onLoad_body .logo{
         width: 14rem;
-    }
-    .header_logo{
-        width: 11rem !important;
     }
 
     /*----- Login page ----*/
@@ -1224,9 +1230,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     /* PreLoder */
     .onLoad .onLoad_body .logo{
         width: 13rem;
-    }
-    .header_logo{
-        width: 10rem !important;
     }
 
     /* Auth Pages */
