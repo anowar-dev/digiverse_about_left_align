@@ -226,7 +226,7 @@ img{
     width: 100vw;
     text-align: center;
     /* background: linear-gradient(to right, #284485, #243d77, #1c3163); */
-    background: url('../img/background/mz.jpg');
+    /* background: #000 url('../img/background/mz.jpg'); */
     padding-top: .8rem;
     padding-bottom: .5rem;
     top: 0;
