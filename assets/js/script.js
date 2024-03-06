@@ -239,3 +239,8 @@ function viewPass() {
 
 
 
+document.addEventListener("scroll", function () {
+  var scrollTop = window.pageYOffset;
+  var parallaxMenu = document.querySelector(".header_logo");
+  parallaxMenu.style.backgroundPositionY = scrollTop * 0.5 + "px";
+});
